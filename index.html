@@ -18,13 +18,13 @@
           <span class="sr-only">Otwórz menu</span><span></span><span></span>
         </button>
         <div class="nav-group nav-left" id="nav-links">
-          <a href="#prace">Portfolio</a>
           <a href="#o-mnie">O mnie</a>
+          <a href="#prace">Portfolio</a>
         </div>
         <div class="nav-group nav-right">
+          <a href="#pielegnacja">Pielęgnacja</a>
           <a href="#kontakt">Kontakt</a>
           <a href="#umow-sie">Umów się</a>
-          <a href="#pielegnacja">Pielęgnacja</a>
         </div>
         <div class="nav-social" aria-label="Media społecznościowe">
           <a class="facebook-icon" href="https://www.facebook.com/p/Zojka-tattoo-100036867801510/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Zojka Studio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.2 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V4a22 22 0 0 0-2.4-.1c-2.4 0-4 1.4-4 4.1v2H8.4v3h2.7v8h3.1Z" /></svg></a>
@@ -39,10 +39,10 @@
         <div class="hero-gallery">
           <div class="hero-track">
             <div class="hero-set">
-              <img src="assets/praca1.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca2.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca3.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca4.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca5.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca6.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca7.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca8.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/praca9.jpg" alt="Praca tatuażowa Zojka Studio" />
+              <img src="assets/portfolio-01.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-02.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-03.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-04.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-05.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-06.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-07.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-08.jpg" alt="Praca tatuażowa Zojka Studio" /><img src="assets/portfolio-09.jpg" alt="Praca tatuażowa Zojka Studio" />
             </div>
             <div class="hero-set" aria-hidden="true">
-              <img src="assets/praca1.jpg" alt="" /><img src="assets/praca2.jpg" alt="" /><img src="assets/praca3.jpg" alt="" /><img src="assets/praca4.jpg" alt="" /><img src="assets/praca5.jpg" alt="" /><img src="assets/praca6.jpg" alt="" /><img src="assets/praca7.jpg" alt="" /><img src="assets/praca8.jpg" alt="" /><img src="assets/praca9.jpg" alt="" />
+              <img src="assets/portfolio-01.jpg" alt="" /><img src="assets/portfolio-02.jpg" alt="" /><img src="assets/portfolio-03.jpg" alt="" /><img src="assets/portfolio-04.jpg" alt="" /><img src="assets/portfolio-05.jpg" alt="" /><img src="assets/portfolio-06.jpg" alt="" /><img src="assets/portfolio-07.jpg" alt="" /><img src="assets/portfolio-08.jpg" alt="" /><img src="assets/portfolio-09.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -50,36 +50,81 @@
 
       <section class="about dark-section" id="o-mnie" aria-labelledby="about-title">
         <div class="about-grid">
-          <figure class="portrait"><img src="assets/zojka_omnie.jpg" alt="Sonia Kurczyńska, tatuatorka Zojka Studio" loading="lazy" /></figure>
-          <div class="about-copy">
+          <div class="about-stack" aria-label="Zdjęcia Sonii Kurczyńskiej">
+            <button class="about-photo is-active" type="button" data-about="tattoo" aria-pressed="true"><img src="assets/ja1.jpg" alt="Sonia Kurczyńska w studiu tatuażu" loading="lazy" /></button>
+            <button class="about-photo" type="button" data-about="horses" aria-pressed="false"><img src="assets/ja2.png" alt="Pasja Sonii Kurczyńskiej — jazda konna" loading="lazy" /></button>
+            <button class="about-photo" type="button" data-about="travel" aria-pressed="false"><img src="assets/ja3.jpeg" alt="Sonia Kurczyńska podczas podróży" loading="lazy" /></button>
+          </div>
+          <div class="about-copy" aria-live="polite">
             <h2 id="about-title">O mnie</h2>
-            <p class="lead">Nazywam się Sonia Kurczyńska. Tatuuję od 2018 roku, a najbliższe są mi lekkie, szkicowe formy z detalami dotworku.</p>
-            <p>Najczęściej pracuję w czerni i szarościach, choć z przyjemnością sięgam też po kolor. W projekcie liczą się dla mnie rysunek, uważność i detal, który nadaje pracy własny charakter.</p>
-            <p class="source-note">Tekst opracowany na podstawie <a href="https://tattoo-witryna.pl/2019/10/06/sonia-kurczynska-zojka-tattoo/" target="_blank" rel="noopener noreferrer">wywiadu z 2019 roku <span aria-hidden="true">↗</span></a>.</p>
+            <div class="about-description" id="about-description">
+              <p>Hej! Mam na imię Sonia i tatuażem zajmuję się od 2018 roku. Styl, w którym pracuję to głównie sketch, tatuaż graficzny, cienkie linie, watercolour. Ulubionymi motywami są fauna i flora oraz Disney. Zapraszam do zapoznania się z moimi pracami, a następnie do umówienia wizyty ✌️</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="works" id="prace" aria-labelledby="works-title">
-        <div class="works-intro"><h2 id="works-title">Portfolio</h2><p>Portfolio jest aktualizowane na Instagramie.</p></div>
-        <div class="gallery" aria-label="Portfolio prac Zojka Studio">
-          <figure class="work-card"><img src="assets/praca1.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 1" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca2.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 2" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca3.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 3" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca4.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 4" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca5.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 5" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca6.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 6" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca7.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 7" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca8.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 8" loading="lazy" /></figure>
-          <figure class="work-card"><img src="assets/praca9.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 9" loading="lazy" /></figure>
+        <div class="works-intro"><div><h2 id="works-title">Portfolio</h2>
+        </div><span class="portfolio-count" aria-live="polite">1 / 38</span></div>
+        <div class="portfolio-stage">
+          <button class="portfolio-arrow portfolio-arrow-previous" type="button" data-portfolio-direction="previous" aria-label="Pokaż poprzednią pracę">←</button>
+          <div class="gallery portfolio-gallery" aria-label="Portfolio prac Zojka Studio">
+          <figure class="work-card"><img src="assets/portfolio-01.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 1" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-02.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 2" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-03.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 3" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-04.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 4" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-05.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 5" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-06.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 6" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-07.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 7" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-08.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 8" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-09.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 9" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-10.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 10" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-11.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 11" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-12.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 12" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-13.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 13" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-14.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 14" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-15.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 15" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-16.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 16" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-17.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 17" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-18.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 18" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-19.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 19" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-20.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 20" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-21.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 21" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-22.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 22" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-23.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 23" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-24.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 24" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-25.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 25" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-26.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 26" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-27.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 27" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-28.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 28" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-29.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 29" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-30.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 30" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-31.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 31" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-32.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 32" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-33.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 33" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-34.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 34" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-35.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 35" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-36.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 36" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-37.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 37" loading="lazy" /></figure>
+          <figure class="work-card"><img src="assets/portfolio-38.jpg" alt="Praca tatuażowa Zojka Studio, realizacja 38" loading="lazy" /></figure>
+          </div>
+          <button class="portfolio-arrow portfolio-arrow-next" type="button" data-portfolio-direction="next" aria-label="Pokaż następną pracę">→</button>
         </div>
       </section>
 
       <section class="care" id="pielegnacja" aria-labelledby="care-title">
-        <div class="care-layout"><div><h2 id="care-title">Pielęgnacja<br /><em>świeżego tatuażu.</em></h2><p class="care-lead">Kilka prostych zasad, które wspierają spokojne gojenie.</p></div>
-          <ol class="care-steps"><li>Umyj ręce przed dotknięciem tatuażu i postępuj zgodnie z zaleceniami dotyczącymi opatrunku.</li><li>Myj delikatnie letnią wodą i łagodnym, bezzapachowym środkiem. Osusz czystym ręcznikiem papierowym, nie pocierając.</li><li>Stosuj cienką warstwę zalecanego preparatu — nadmiar kosmetyku nie pomaga.</li><li>Noś czyste, luźne ubrania. Nie drap i nie odrywaj łuszczącej się skóry.</li><li>Do wygojenia unikaj basenu, jeziora, wanny, słońca oraz solarium.</li><li>Po wygojeniu chroń tatuaż przed słońcem odpowiednim filtrem UV.</li></ol>
+        <div class="care-layout"><div><h2 id="care-title">Pielęgnacja<br /><em>świeżego tatuażu.</em></h2><p class="care-lead">Zalecany proces gojenia — od pierwszego opatrunku po codzienną ochronę skóry.</p></div>
+          <ol class="care-steps">
+            <li><strong>Zadbaj o opatrunek.</strong> Second skin noś zgodnie z instrukcją producenta i zaleceniami tatuatorki. Pod opatrunkiem nie myj ani nie smaruj tatuażu. Folię spożywczą zmieniaj według otrzymanych wskazówek — nie traktuj jej jak second skin.</li>
+            <li><strong>Myj delikatnie.</strong> Przed pielęgnacją umyj ręce. Po zdjęciu opatrunku przemyj tatuaż letnią wodą z łagodnym, bezzapachowym mydłem. Osusz czystym, jednorazowym ręcznikiem papierowym, bez pocierania.</li>
+            <li><strong>Nawilżaj z umiarem.</strong> Na czystą i suchą skórę nakładaj cienką warstwę preparatu zaleconego do pielęgnacji tatuażu. Częstotliwość i czas stosowania dopasuj do otrzymanych wskazówek — nadmiar kremu nie przyspiesza gojenia.</li>
+            <li><strong>Nie drap i nie zrywaj naskórka.</strong> Podczas gojenia skóra może swędzieć i się łuszczyć. Pozwól jej zregenerować się naturalnie; noś czyste, luźne ubrania i unikaj tarcia oraz rozciągania tatuowanego miejsca.</li>
+            <li><strong>Daj skórze odpocząć.</strong> Ogranicz alkohol, intensywny wysiłek i pocenie. Z powrotem do treningów poczekaj, aż skóra się zregeneruje, zgodnie z zaleceniami tatuatorki.</li>
+            <li><strong>Unikaj moczenia i słońca.</strong> Do wygojenia zrezygnuj z długich kąpieli, basenu i pływania w jeziorze. Chroń świeży tatuaż przed bezpośrednim słońcem i solarium.</li>
+            <li><strong>Dbaj o tatuaż także po wygojeniu.</strong> Regularnie nawilżaj skórę, a podczas ekspozycji na słońce stosuj filtr SPF 50+. To pomaga zachować wyrazistość i kolory pracy.</li>
+          </ol>
         </div>
-        <p class="care-note">To ogólne wskazówki — najważniejsze są indywidualne zalecenia tatuatorki. W razie niepokojących objawów skontaktuj się z lekarzem.</p>
       </section>
 
       <section class="contact dark-section" id="kontakt" aria-labelledby="contact-title">
@@ -88,7 +133,7 @@
             <address>
               <a href="https://www.google.com/maps/search/?api=1&amp;query=ul.+Henryka+Sienkiewicza+37A%2C+%C5%81%C3%B3d%C5%BA" target="_blank" rel="noopener noreferrer"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>ul. Henryka Sienkiewicza 37A<br />Łódź <b aria-hidden="true">↗</b></span></a>
               <a href="tel:+48537274551"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4.8 5.2c-.8.8.2 4.2 3.6 7.6s6.8 4.4 7.6 3.6L18.2 14l-3.5-2.3-1.8 1.8a12.6 12.6 0 0 1-2.4-2.1 12.6 12.6 0 0 1-2.1-2.4l1.8-1.8L7 3Z"/></svg><span>537 274 551</span></a>
-              <a href="mailto:zojkastudio@gmail.com"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 16.5V6.8A3.8 3.8 0 0 0 15.7 3H9a4.5 4.5 0 1 0 0 9h6.5a4 4 0 1 0-3.9-4.8"/><circle cx="15.5" cy="8" r=".8"/></svg><span>zojkastudio@gmail.com</span></a>
+              <a href="mailto:kurczynska.sonia@gmail.com"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 16.5V6.8A3.8 3.8 0 0 0 15.7 3H9a4.5 4.5 0 1 0 0 9h6.5a4 4 0 1 0-3.9-4.8"/><circle cx="15.5" cy="8" r=".8"/></svg><span>kurczynska.sonia@gmail.com</span></a>
             </address>
           </div>
           <div class="map-wrap"><iframe title="Mapa dojazdu do Zojka Studio w Łodzi" src="https://www.google.com/maps?q=Henryka%20Sienkiewicza%2037A%2C%20%C5%81%C3%B3d%C5%BA&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a class="map-overlay" href="https://www.google.com/maps/search/?api=1&amp;query=ul.+Henryka+Sienkiewicza+37A%2C+%C5%81%C3%B3d%C5%BA" target="_blank" rel="noopener noreferrer">Otwórz w Google Maps <span aria-hidden="true">↗</span></a></div>
@@ -109,6 +154,7 @@
       </section>
     </main>
     <footer><a class="footer-logo" href="#top">Zojka Studio <span>✦</span></a><p>© 2026 — Zojka Studio — Wszelkie prawa zastrzeżone.</p><div><a href="https://www.instagram.com/zojka_tattoo/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/p/Zojka-tattoo-100036867801510/" target="_blank" rel="noopener noreferrer">Facebook</a></div></footer>
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie portfolio" hidden><button class="lightbox-close" type="button" aria-label="Zamknij">×</button><button class="lightbox-arrow lightbox-prev" type="button" aria-label="Poprzednie zdjęcie">←</button><img src="" alt="" /><button class="lightbox-arrow lightbox-next" type="button" aria-label="Następne zdjęcie">→</button></div>
     <script src="script.js"></script>
   </body>
 </html>
