@@ -36,3 +36,9 @@ h2{font-size:clamp(2.7rem,6.2vw,6rem);line-height:.88}.care h2{font-size:clamp(2
   .navigation .nav-right{top:128px;padding:.35rem 1.2rem 1.1rem;border-top:0}
   .navigation.menu-open .nav-group{background:var(--cream)}
 }
+
+/* Rozpoznawalne kolory kanałów społecznościowych i wyraźniejszy hamburger. */
+.facebook-icon{color:#fff!important;background:#1877f2!important;border-color:#1877f2!important}.facebook-icon svg{fill:currentColor!important}
+.instagram-icon{color:#fff!important;background:linear-gradient(135deg,#833ab4,#fd1d1d 58%,#fcb045)!important;border-color:transparent!important}.instagram-icon svg{stroke:currentColor!important}
+footer a[href*='facebook.com']{color:#1877f2}footer a[href*='instagram.com']{color:#b72d82}
+@media(max-width:760px){.menu-toggle{gap:5px!important}.menu-toggle span:not(.sr-only){width:27px!important;height:2px!important;background:var(--black)!important;border-radius:999px}}
