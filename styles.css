@@ -25,3 +25,14 @@ h2{font-size:clamp(2.7rem,6.2vw,6rem);line-height:.88}.care h2{font-size:clamp(2
 .care{padding-top:clamp(3.2rem,5vw,5rem);padding-bottom:clamp(3.2rem,5vw,5rem)}.care-layout{gap:clamp(2rem,5vw,5rem)}.care-steps li{padding:.85rem 0 1rem 3.4rem;font-size:.78rem;line-height:1.5}.care-steps li::before{top:.78rem;font-size:.95rem}.care-note{margin-top:1.8rem;font-size:.68rem}.care-lead{font-size:.84rem}
 .portfolio-gallery{gap:9px}.work-card,.work-card img{min-height:185px}.work-card:nth-child(1),.work-card:nth-child(6){grid-row:span 1}.work-card:nth-child(3),.work-card:nth-child(8){grid-column:span 1}
 @media(max-width:760px){h2{font-size:clamp(2.55rem,12vw,4.2rem);line-height:.9}.care h2{line-height:1.02}.care-steps li{padding-left:3rem;font-size:.76rem}.work-card,.work-card img{min-height:145px}}
+
+/* Mobilny układ kontaktu i spójne, jednolite menu hamburgera. */
+@media(max-width:760px){
+  html,body{max-width:100%;overflow-x:clip}
+  .contact-layout{display:flex;flex-direction:column;gap:2.5rem;min-width:0}
+  .contact-info,.map-wrap{width:100%;min-width:0}
+  .map-wrap,.map-wrap iframe{max-width:100%;min-height:330px;height:330px}
+  .navigation .nav-left{top:68px;padding:1.1rem 1.2rem .35rem;border-bottom:0}
+  .navigation .nav-right{top:128px;padding:.35rem 1.2rem 1.1rem;border-top:0}
+  .navigation.menu-open .nav-group{background:var(--cream)}
+}
